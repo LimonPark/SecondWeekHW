@@ -23,7 +23,7 @@ public class Methods {
         }
     }
 
-    public static void mesajVer(String mesaj){
+    public static void mesajVer(String mesa){
         System.out.println(mesaj);
     }
 }
