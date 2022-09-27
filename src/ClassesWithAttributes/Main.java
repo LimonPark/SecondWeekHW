@@ -3,9 +3,10 @@ package ClassesWithAttributes;
 public class Main {
     public static void main(String[] args){
         Product product = new Product();
+        Product product1 = new Product(2, "Laptop", "Toshiba Laptop", 4000, 4, "Gri");
         product.setName("Laptop");
         product.setId(1);
-        product.setDescription("Asus LAptop");
+        product.setDescription("Asus Laptop");
         product.setPrice(5000);
         product.setStockAmount(3);
 
